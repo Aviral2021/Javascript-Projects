@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: url(./images/lena-polishko-Rc5dIAPRAfs-unsplash.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+.container {
+  
+    border-radius: 1.5rem;
+    height: 360px;
+    width: 340px;
+    background: transparent;
+    border: 2px solid black;
+
+}
+
+.title {
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: .5rem;
+    color: white;
+    
+}
+
+.input-fields {
+    position: relative;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.password {
+    margin-top: 1.5rem;
+    color: white;
+   
+}
+
+.container input{
+    width: 100%;
+    height: 4.5vh;
+    border-radius: 1.2rem;
+    background-color: black;
+    border: 2px solid white;
+    
+   
+}
+
+.forgot-remember {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.remember {
+    padding-top: 4px;
+    padding-left: 28px;
+    display: flex;
+    color: white;
+    font-size: small;   
+}
+
+.forgot-pw a {
+     font-size: small;
+    color: black;
+    margin-left: 49px;
+   
+ }
+.btn {
+    margin-top: 1rem;
+   
+}
+.container button {
+    width: 65%;
+    height: 5vh;
+    border-radius: 1.5rem;
+    background: black;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border: 2px solid white;
+    
+}
+
+.container h4 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.input-fields i {
+    position: absolute;
+    right: 20px;
+    margin-right: 13px;
+    margin-top: 13px;
+    color: white;
+   
+}
+.forgot-remember label {
+    display: flex;
+    
+}
+.forgot-remember input {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    margin-top: 4px;
+
+}
+
+.input-fields input {
+    padding: 20px 45px 20px 20px;
+}
+
+.container .dont-have{
+   display: flex;
+   margin-left: 2rem;
+   align-items: first baseline;   
+}
+.container .dont-have a {
+    margin-left:10px;
+    color:  black; 
+    font-size: small;
+}
+
+.dont-have h4 {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
